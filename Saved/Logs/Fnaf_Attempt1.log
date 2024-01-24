@@ -2131,3 +2131,165 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.01.24-12.41.25:113][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 6.77 sec)
 [2024.01.24-12.41.25:115][300]AssetCheck: New page: Asset Save: MainLevel
 [2024.01.24-12.41.25:115][300]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.01.24-12.43.00:827][269]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2024.01.24-12.43.00:827][269]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2024.01.24-12.43.13:018][678]Cmd: DELETE
+[2024.01.24-12.43.13:018][678]Cmd: ACTOR DELETE
+[2024.01.24-12.43.13:020][678]LogEditorActor: Deleted Actor: SpotLight
+[2024.01.24-12.43.13:032][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.24-12.43.13:034][678]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.01.24-12.43.18:596][857]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.01.24-12.43.18:596][857]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.01.24-12.43.28:960][196]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.24-12.43.28:966][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.24-12.43.28:966][196]PIE: New page: PIE session: MainLevel (24 Jan 2024, 12:43:28)
+[2024.01.24-12.43.28:966][196]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2024.01.24-12.43.28:970][196]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.01.24-12.43.28:992][197]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2024.01.24-12.43.29:000][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007874s)
+[2024.01.24-12.43.29:000][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.007938s)
+[2024.01.24-12.43.29:011][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.01.24-12.43.29:015][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-12.43.29:015][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-12.43.29:016][197]LogAIModule: Creating AISystem for world MainLevel
+[2024.01.24-12.43.29:017][197]LogPlayLevel: PIE: World Init took: (0.001879s)
+[2024.01.24-12.43.29:017][197]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.24-12.43.29:017][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.24-12.43.29:017][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.24-12.43.29:017][197]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.24-12.43.29:017][197]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.24-12.43.29:017][197]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.24-12.43.29:020][197]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.24-12.43.29:049][197]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.01.24-12.43.29:049][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.24-12.43.29:049][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.24-12.43.29:049][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.24-12.43.29:052][197]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.01.24-12.43.29:052][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.01.24-12.43.29:055][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.01.24-12.43.29:055][197]LogInit: FAudioDevice initialized with ID 4.
+[2024.01.24-12.43.29:055][197]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.01.24-12.43.29:055][197]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainLevel'.
+[2024.01.24-12.43.29:055][197]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.24-12.43.29:059][197]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.24-12.43.29:062][197]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.01.24-12.43.29
+[2024.01.24-12.43.29:062][197]LogWorld: Bringing up level for play took: 0.002953
+[2024.01.24-12.43.29:067][197]PIE: Server logged in
+[2024.01.24-12.43.29:068][197]PIE: Play in editor total start time 0.103 seconds.
+[2024.01.24-12.43.50:863][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.43.50:863][ 14]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2024.01.24-12.43.50:864][ 14]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-12.43.50:864][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.43.50:887][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.24-12.43.50:891][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-12.43.50:897][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.24-12.43.50:898][ 14]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.24-12.43.50:898][ 14]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.24-12.43.50:900][ 14]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.24-12.43.50:908][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.01.24-12.43.50:980][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.01.24-12.43.55:921][193]MapCheck: New page: Map Check
+[2024.01.24-12.43.55:996][193]LightingResults: New page: Lighting Build - 24 Jan 2024, 12:43:55
+[2024.01.24-12.43.56:005][193]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.01.24-12.43.56:013][193]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.01.24-12.43.56:013][193]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.01.24-12.43.56:014][193]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.01.24-12.43.56:014][193]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14680
+[2024.01.24-12.44.01:507][193]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2024.01.24-12.44.01:507][193]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.01.24-12.44.01:507][193]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.01.24-12.44.01:507][193]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.01.24-12.44.01:507][193]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.01.24-12.44.01:507][193]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.01.24-12.44.01:614][193]LogEditorBuildUtils: Build time 0:05
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: ================================================
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Total job queries 225, among them cache hits 101 (44.89%)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Tracking 116 distinct input hashes that result in 67 distinct outputs (57.76%)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: RAM used: 271.73 KiB of 819.20 MiB budget. Usage: 0.03%
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Shaders Compiled: 92
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Jobs assigned 92, completed 92 (100%)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Average time worker was idle: 17.06 s
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Time job spent in pending queue: average 0.79 s, longest 3.32 s
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Job execution time: average 1.53 s, max 14.12 s
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Job life time (pending + execution): average 2.32 s, max 14.23
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Shader code size: average 5.115 KiB, min 1.676 KiB, max 14.137 KiB
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 50.25 s
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Jobs were issued in 88 batches (only local compilation was used), average 1.05 jobs/batch
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Average processing rate: 1.83 jobs/sec
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Total thread time: 76.736 s
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Total thread preprocess time: 7.957 s
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Percentage time preprocessing: 10.37%
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Effective parallelization: 1.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 1.64 sec, max 2.00 sec, min 0.68 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   11 times, average 1.12 sec, max 1.87 sec, min 0.63 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   23 times, average 0.98 sec, max 1.87 sec, min 0.52 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   23 times, average 0.91 sec, max 1.89 sec, min 0.43 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 29.37% of total time (compiled   23 times, average 0.98 sec, max 1.87 sec, min 0.52 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.35% of total time (compiled   23 times, average 0.91 sec, max 1.89 sec, min 0.43 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.06% of total time (compiled   11 times, average 1.12 sec, max 1.87 sec, min 0.63 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.57% of total time (compiled    4 times, average 1.64 sec, max 2.00 sec, min 0.68 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.55% of total time (compiled   11 times, average 0.32 sec, max 0.41 sec, min 0.23 sec)
+[2024.01.24-12.44.01:646][193]LogShaderCompilers: Display: ================================================
+[2024.01.24-12.44.03:744][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.24-12.44.12:301][433]Job is a success!
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.125s
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:      Bricks at depth
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:          0: 11.8% covering 100.0% of volume
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:          1: 11.8% covering 1.6% of volume
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:          2: 76.5% covering 0.2% of volume
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:      Bricks in each level
+[2024.01.24-12.44.12:718][434]LogVolumetricLightmapImport:          MainLevel 			 68 bricks 	 100.0% (Persistent Level)
+[2024.01.24-12.44.12:864][434]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 73.395816 MB), EncodeSpeed: Fast
+[2024.01.24-12.44.12:886][434]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 71.395815 MB), EncodeSpeed: Fast
+[2024.01.24-12.44.12:901][434]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.713502 MB), EncodeSpeed: Fast
+[2024.01.24-12.44.12:902][434]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 0.533824 MB), EncodeSpeed: Fast
+[2024.01.24-12.44.12:939][434]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:ShadowMapTexture2D_0 (BGRA8, 1024x128 x1x1x1) (Required Memory Estimate: 4.062504 MB), EncodeSpeed: Fast
+[2024.01.24-12.44.12:978][434]Lightmass on YES: 7.15 sec total, 404 ms importing, 9 ms setup, 658 ms photons, 6.08 sec processing, 0 us extra exporting [41/41 mappings]. Threads: 24.2 sec total, 9.14 sec processing.
+[2024.01.24-12.44.13:066][434]LogStaticLightingSystem: MainLevel_BuiltData storing lightmap data for 41 meshes in 3 LightmapResourceClusters (13.7 Meshes per cluster).
+[2024.01.24-12.44.13:083][434]LogMaterial: Display: Material /Game/Default/LevelPrototyping/Materials/MI_Solid_Blue.MI_Solid_Blue needed to have new flag set bUsedWithStaticLighting !
+[2024.01.24-12.44.13:156][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.01.24-12.44.13:167][434]LogStaticLightingSystem: Illumination: 17.0 sec (98 ms encoding lightmaps, 61 ms encoding shadowmaps)
+[2024.01.24-12.44.13:167][434]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2024.01.24-12.44.13:167][434]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.01.24-12.44.13:524][434]DumpUnbuiltLightIteractions
+[2024.01.24-12.44.13:524][434]Lights with unbuilt interactions: 0
+[2024.01.24-12.44.13:524][434]
+[2024.01.24-12.44.13:524][434]Primitives with unbuilt interactions: 0
+[2024.01.24-12.44.15:526][434]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2024.01.24-12.44.19:969][434]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 6.444711s (4.444711s overbudget)
+[2024.01.24-12.44.20:006][435]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.01.24-12.44.20:006][435]MapCheck: New page: MainLevel - 24 Jan 2024, 12:44:20
+[2024.01.24-12.44.20:037][435]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.978ms to complete.
+[2024.01.24-12.44.23:450][531]LogSlate: Window 'Message Log' being destroyed
+[2024.01.24-12.44.23:488][531]LogSlate: Window 'Message Log' being destroyed
+[2024.01.24-12.44.57:416][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.44.57:651][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.24-12.44.57:676][507]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2024.01.24-12.44.57:676][507]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/MainLevelD97EE56F4BECBE319D358787B0AB16C6.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel.umap'
+[2024.01.24-12.44.57:743][507]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Levels/MainLevel_BuiltData
+[2024.01.24-12.44.57:744][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.44.57:748][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel_BuiltData" FILE="D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel_BuiltData.uasset" SILENT=true
+[2024.01.24-12.44.57:773][507]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel_BuiltData
+[2024.01.24-12.44.57:774][507]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/MainLevel_BuiltDataE6A866D245F71B68F3E14B827FCEA974.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel_BuiltData.uasset'
+[2024.01.24-12.44.57:775][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 6.80 sec)
+[2024.01.24-12.44.57:775][507]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Levels/MainLevel_BuiltData
+[2024.01.24-12.44.57:775][507]LogFileHelpers: Saving map 'MainLevel' took 0.276
+[2024.01.24-12.44.57:786][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 370 ms (total: 7.17 sec)
+[2024.01.24-12.44.57:806][507]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.24-12.44.57:806][507]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.01.24-12.44.57:806][507]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
