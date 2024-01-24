@@ -2119,3 +2119,15 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.01.24-12.36.19:216][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 6.61 sec)
 [2024.01.24-12.36.19:217][597]AssetCheck: New page: Asset Save: MainLevel
 [2024.01.24-12.36.19:217][597]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.01.24-12.40.15:835][995]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.01.24-12.40.27:724][380]Cmd: MODE GRID=0
+[2024.01.24-12.40.35:823][644]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.01.24-12.41.24:953][300]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-12.41.25:069][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.01.24-12.41.25:089][300]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2024.01.24-12.41.25:089][300]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/MainLevelDD8B7DDE4710870DB77F249694A8A922.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel.umap'
+[2024.01.24-12.41.25:098][300]LogFileHelpers: All files are already saved.
+[2024.01.24-12.41.25:098][300]LogFileHelpers: Saving map 'MainLevel' took 0.056
+[2024.01.24-12.41.25:113][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 6.77 sec)
+[2024.01.24-12.41.25:115][300]AssetCheck: New page: Asset Save: MainLevel
+[2024.01.24-12.41.25:115][300]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
