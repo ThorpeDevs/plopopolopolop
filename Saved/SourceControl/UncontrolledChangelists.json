@@ -6,6 +6,19 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Levels/Test_Place.umap",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/CameraSystem/CameraSystem.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/OLDSTUFF/Test_Place_BuiltData.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/OLDSTUFF/Test_Place.umap",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/Test_Place.umap",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/OLDSTUFF/Menu_BuiltData.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/OLDSTUFF/Menu.umap",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/Menu.umap",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/Test_Place_BuiltData.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/Menu_BuiltData.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel.umap",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel_BuiltData.uasset",
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset",
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Clumps_Regular_PlantainRibwort_Big_CLUMP_HIGH_002.uasset",
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Clumps_Regular_PlantainRibwort_Big_CLUMP_HIGH_003.uasset",
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Clumps_Regular_PlantainRibwort_Big_CLUMP_HIGH_004.uasset",
@@ -39,9 +52,7 @@
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Regular_ROUGHNESS_High.uasset",
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Regular_OPACITY_High.uasset",
 				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Regular_NRM_High.uasset",
-				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Regular_COLOR_High.uasset",
-				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Levels/Test_Place.umap",
-				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/CameraSystem/CameraSystem.uasset"
+				"D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/Fnaf_Attempt1 5.2/Content/Foliage/Ribwort_Plaintan/RibwortPlantain_Regular_COLOR_High.uasset"
 			]
 		}
 	]
