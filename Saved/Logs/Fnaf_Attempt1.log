@@ -3185,3 +3185,207 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.02.02-21.41.19:853][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 2.34 sec)
 [2024.02.02-21.41.19:854][917]AssetCheck: New page: Asset Save: MainLevel
 [2024.02.02-21.41.19:854][917]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.02.02-21.46.46:021][200]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.02.02-21.46.46:355][200]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/5 (arcade) ...
+[2024.02.02-21.46.46:440][200]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 1/5 (arcade) ...
+[2024.02.02-21.46.46:490][200]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 3/5 (princess_quest_arcade) ...
+[2024.02.02-21.46.46:538][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.02-21.46.46:717][200]LogTexture: Display: Building textures: /Game/ArcadeModels/BalloonWorld/Balloon_World_Grayscale.Balloon_World_Grayscale (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.49:681][200]LogTexture: Display: Building textures: /Game/ArcadeModels/Kibble/screen.screen (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 0.22392 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.50:050][200]LogTexture: Display: Building textures: /Game/ArcadeModels/Kibble/Kibble_Grayscale.Kibble_Grayscale (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.50:524][200]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.02-21.46.50:570][200]LogUObjectGlobals: Force Deleting 54 Package(s):
+	Asset Name: /Game/ArcadeModels/BalloonWorld/screen.screen
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/Balloon_World_Specc.Balloon_World_Specc
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/Balloon_World_Normal.Balloon_World_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/Balloon_World_Grayscale.Balloon_World_Grayscale
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/Balloon_World_Emission.Balloon_World_Emission
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/Balloon_World_AO.Balloon_World_AO
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/Balloon_World.Balloon_World
+	Asset Type: Texture2D
+	Asset Name: /Game/ArcadeModels/BalloonWorld/arcade_Skeleton.arcade_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/ArcadeModels/BalloonWorld/arcade_PhysicsAsset.arcade_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/ArcadeModels/BalloonWorld/ArcadeScreen.ArcadeScreen
+	Asset Type: Material
+[2024.02.02-21.46.51:061][200]LogTexture: Display: Building textures: /Game/ArcadeModels/NewFolder/Space_Caddy_Grayscale.Space_Caddy_Grayscale (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.51:653][200]LogTexture: Display: Building textures: /Game/ArcadeModels/PrincessQuest1/screen.screen (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 0.22392 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.51:906][200]LogTexture: Display: Building textures: /Game/ArcadeModels/PrincessQuest1/Princess_Quest_Arcade_Grayscale.Princess_Quest_Arcade_Grayscale (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.52:450][200]LogTexture: Display: Building textures: /Game/ArcadeModels/PrincessQuest2/screen.screen (TFO_AutoDXT, 32x32 x1x1x1) (Required Memory Estimate: 0.22392 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.52:693][200]LogTexture: Display: Building textures: /Game/ArcadeModels/PrincessQuest2/Princess_Quest_2_Arcade_Grayscale.Princess_Quest_2_Arcade_Grayscale (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.02.02-21.46.52:818][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\PrincessQuest1\Arcade.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.52:829][200]LogMaterial: Warning: Arcade: Requesting an invalid TextureIndex! (2 / 0)
+[2024.02.02-21.46.52:829][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\PrincessQuest1\Arcade.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.52:873][200]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (princess_quest_arcade) ...
+[2024.02.02-21.46.53:029][200]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (princess_quest_arcade) ...
+[2024.02.02-21.46.53:094][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\NewFolder\Arcade1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:096][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\NewFolder\Arcade1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:120][200]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (arcade) ...
+[2024.02.02-21.46.53:169][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\Kibble\Arcade1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:171][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\Kibble\Arcade1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:174][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\PrincessQuest2\Arcade.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:177][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\PrincessQuest2\Arcade.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:195][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\BalloonWorld\Arcade1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:198][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\BalloonWorld\Arcade1.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:200][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\BalloonWorld\ArcadeScreen.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.53:202][200]LogMaterial: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\ArcadeModels\BalloonWorld\ArcadeScreen.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.02.02-21.46.55:275][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.02-21.46.55:299][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.02.02-21.46.55:320][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.02.02-21.47.03:411][783]LogViewport: Scene viewport resized to 1408x649, mode Windowed.
+[2024.02.02-21.47.03:457][784]LogViewport: Scene viewport resized to 1408x626, mode Windowed.
+[2024.02.02-21.47.03:498][785]LogViewport: Scene viewport resized to 1408x591, mode Windowed.
+[2024.02.02-21.47.03:544][786]LogViewport: Scene viewport resized to 1408x584, mode Windowed.
+[2024.02.02-21.47.03:661][793]LogViewport: Scene viewport resized to 1408x583, mode Windowed.
+[2024.02.02-21.47.03:704][794]LogViewport: Scene viewport resized to 1408x579, mode Windowed.
+[2024.02.02-21.47.03:745][795]LogViewport: Scene viewport resized to 1408x578, mode Windowed.
+[2024.02.02-21.47.11:370][328]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.02.02-21.47.11:480][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/BalloonWorld/ArcadeScreen': Can't find file.
+[2024.02.02-21.47.11:480][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/BalloonWorld/ArcadeScreen'
+[2024.02.02-21.47.11:570][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/BalloonWorld/arcade': Can't find file.
+[2024.02.02-21.47.11:570][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/BalloonWorld/arcade'
+[2024.02.02-21.47.11:570][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/Kibble/arcade': Can't find file.
+[2024.02.02-21.47.11:570][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/Kibble/arcade'
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/NewFolder/arcade': Can't find file.
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/NewFolder/arcade'
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/PrincessQuest1/princess_quest_arcade': Can't find file.
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/PrincessQuest1/princess_quest_arcade'
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/PrincessQuest2/princess_quest_2_arcade': Can't find file.
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/PrincessQuest2/princess_quest_2_arcade'
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: Failed to load '/Game/ArcadeModels/PrincessQuest2/princess_quest_2_arcade_PhysicsAsset': Can't find file.
+[2024.02.02-21.47.11:571][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Test_Place.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/PrincessQuest2/princess_quest_2_arcade_PhysicsAsset'
+[2024.02.02-21.47.11:843][328]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave CamChangeAndOpenAndClose...
+[2024.02.02-21.47.12:044][328]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.47.12:128][328]LogAudio: Display: Chunk sizes for SoundWave /Game/Audio/CamChangeAndOpenAndClose.CamChangeAndOpenAndClose: Chunk0=28 bytes, Chunk1-N=256k
+[2024.02.02-21.47.12:175][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Menu.umap: Failed to load '/Game/ArcadeModels/NewFolder/arcade_PhysicsAsset': Can't find file.
+[2024.02.02-21.47.12:175][328]LogLinker: Warning: [AssetLog] D:\.meervoudigepersoonlijkheidsstoornis\.Unreal Games\.Github\plopopolopolop\Content\Levels\OLDSTUFF\Menu.umap: VerifyImport: Failed to load package for import object 'Package /Game/ArcadeModels/NewFolder/arcade_PhysicsAsset'
+[2024.02.02-21.47.12:191][328]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.47.12:196][328]LogObjectTools: Deleting 2 worlds: /Game/Levels/OLDSTUFF/Test_Place.Test_Place, /Game/Levels/OLDSTUFF/Menu.Menu
+[2024.02.02-21.47.12:196][328]LogObjectTools: Currently 7 active worlds: /Game/Levels/MainLevel.MainLevel, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_8
+[2024.02.02-21.47.12:285][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.02-21.47.13:797][328]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.02-21.47.13:835][328]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Levels/OLDSTUFF/Test_Place_BuiltData.Test_Place_BuiltData
+	Asset Type: MapBuildDataRegistry
+	Asset Name: /Game/Levels/OLDSTUFF/Test_Place.Test_Place
+	Asset Type: World
+	Asset Name: /Game/Levels/OLDSTUFF/Menu_BuiltData.Menu_BuiltData
+	Asset Type: MapBuildDataRegistry
+	Asset Name: /Game/Levels/OLDSTUFF/Menu.Menu
+	Asset Type: World
+[2024.02.02-21.47.14:246][328]LogMaterial: Display: Material /Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome needed to have new flag set bUsedWithStaticLighting !
+[2024.02.02-21.47.14:325][328]MapCheck: Warning: M_SimpleSkyDome Material /Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.02.02-21.47.14:507][328]LogWorld: UWorld::CleanupWorld for Test_Place, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-21.47.14:507][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.47.14:619][328]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-21.47.14:619][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.47.14:933][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.02-21.47.14:962][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.02-21.47.14:985][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.02.02-21.47.17:974][507]LogSlate: Window 'Message Log' being destroyed
+[2024.02.02-21.47.17:987][507]LogSlate: Window 'Message Log' being destroyed
+[2024.02.02-21.47.26:860][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.02.02-21.47.27:876][ 98]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.02-21.47.27:945][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.02.02-21.47.27:968][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.02.02-21.47.27:989][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.02.02-21.47.48:396][243]LogShaderCompilers: Display: ================================================
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Total job queries 47, among them cache hits 0 (0.00%)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 24 distinct outputs (75.00%)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: RAM used: 80.27 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Shaders Compiled: 32
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Jobs assigned 39, completed 32 (82.05%)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Average time worker was idle: 195.03 s
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Time job spent in pending queue: average 3.82 s, longest 33.91 s
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Job execution time: average 4.39 s, max 33.69 s
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Job life time (pending + execution): average 7.97 s, max 33.91
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Shader code size: average 5.467 KiB, min 1.426 KiB, max 9.742 KiB
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 67.44 s
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Jobs were issued in 31 batches (only local compilation was used), average 1.26 jobs/batch
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Average processing rate: 0.47 jobs/sec
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Total thread time: 63.543 s
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Total thread preprocess time: 18.279 s
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Percentage time preprocessing: 28.77%
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Effective parallelization: 0.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 10.61 sec, max 20.12 sec, min 1.11 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 2.83 sec, max 2.83 sec, min 2.83 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 2.68 sec, max 2.68 sec, min 2.68 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 2.66 sec, max 2.66 sec, min 2.66 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 2.38 sec, max 2.38 sec, min 2.38 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 33.40% of total time (compiled    2 times, average 10.61 sec, max 20.12 sec, min 1.11 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.96% of total time (compiled    4 times, average 0.95 sec, max 1.58 sec, min 0.63 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.78% of total time (compiled    4 times, average 0.92 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 4.46% of total time (compiled    1 times, average 2.83 sec, max 2.83 sec, min 2.83 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.22% of total time (compiled    1 times, average 2.68 sec, max 2.68 sec, min 2.68 sec)
+[2024.02.02-21.47.48:397][243]LogShaderCompilers: Display: ================================================
