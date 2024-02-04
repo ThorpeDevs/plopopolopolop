@@ -1153,3 +1153,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.04-12.18.06:031][  4]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
 [2024.02.04-12.18.06:032][  4]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
 [2024.02.04-12.18.06:045][  5]LogAutomationController: Ignoring very large delta of 2.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.04-12.18.46:712][560]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-12.18.46:713][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-12.18.46:718][560]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-12.18.46:718][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-12.18.50:845][561]LogAutomationController: Ignoring very large delta of 4.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.04-12.18.50:878][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-12.18.52:324][562]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
