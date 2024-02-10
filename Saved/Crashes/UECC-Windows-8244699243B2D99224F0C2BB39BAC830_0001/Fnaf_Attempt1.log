@@ -2827,37 +2827,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.10-17.02.38:883][154]LogSlate: Window 'Material_001' being destroyed
 [2024.02.10-17.02.42:860][540]LogMaterialEditor: Saving and Compiling material Material_001
 [2024.02.10-17.02.42:864][540]LogFileHelpers: InternalPromptForCheckoutAndSave started...
-[2024.02.10-17.02.45:002][540]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
-[2024.02.10-17.02.45:151][540]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.148596s
-[2024.02.10-17.02.45:486][540]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.485102s (0.485102s overbudget)
-[2024.02.10-17.02.45:565][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModelsImported/Material_001" FILE="D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/ModelsImported/Material_001.uasset" SILENT=true
-[2024.02.10-17.02.45:567][540]LogSavePackage: Moving output files for package: /Game/ModelsImported/Material_001
-[2024.02.10-17.02.45:567][540]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/Material_001D60894484C3D1CA3AAFB49B0DFCAE622.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/ModelsImported/Material_001.uasset'
-[2024.02.10-17.02.45:576][540]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.71 sec (total: 4.46 sec)
-[2024.02.10-17.02.45:598][540]AssetCheck: New page: Asset Save: Material_001
-[2024.02.10-17.02.45:598][540]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ModelsImported/Material_001.Material_001
-[2024.02.10-17.02.45:616][541]LogAutomationController: Ignoring very large delta of 2.76 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
-[2024.02.10-17.02.54:186][819]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/YetToImport/Import/Unit567BinColour.fbx)
-[2024.02.10-17.02.54:196][819]LogFbx: Loading FBX Scene from D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/YetToImport/Import/Unit567BinColour.fbx
-[2024.02.10-17.02.54:204][819]LogFbx: FBX Scene Loaded Succesfully
-[2024.02.10-17.02.55:319][819]LogSlate: Window 'FBX Import Options' being destroyed
-[2024.02.10-17.02.55:424][819]LogFbx: Display: Triangulating static mesh Cylinder
-[2024.02.10-17.02.55:434][819]LogStaticMesh: Display: Building static mesh Unit567BinColour...
-[2024.02.10-17.02.55:441][819]LogStaticMesh: Built static mesh [0.01s] /Game/ModelsImported/Unit567BinColour.Unit567BinColour
-[2024.02.10-17.02.55:462][819]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2024.02.10-17.02.56:266][820]LogAutomationController: Ignoring very large delta of 7.89 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
-[2024.02.10-17.02.57:807][953]LogSlate: Window 'Message Log' being destroyed
-[2024.02.10-17.02.57:815][953]LogSlate: Window 'Message Log' being destroyed
-[2024.02.10-17.02.58:127][985]LogMeshUtilities: Finished distance field build in 1.9s - 42x42x42 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 100% occupied, 84 triangles, Unit567BinColour
-[2024.02.10-17.03.02:015][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/YetToImport/Import/Unit567BatteryV1.fbx)
-[2024.02.10-17.03.02:025][231]LogFbx: Loading FBX Scene from D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/YetToImport/Import/Unit567BatteryV1.fbx
-[2024.02.10-17.03.02:031][231]LogFbx: FBX Scene Loaded Succesfully
-[2024.02.10-17.03.23:457][231]LogSlate: Window 'FBX Import Options' being destroyed
-[2024.02.10-17.03.23:562][231]LogFbx: Display: Triangulating static mesh Cylinder
-[2024.02.10-17.03.23:571][231]LogStaticMesh: Display: Building static mesh Unit567BatteryV1...
-[2024.02.10-17.03.23:578][231]LogStaticMesh: Built static mesh [0.01s] /Game/ModelsImported/Unit567BatteryV1.Unit567BatteryV1
-[2024.02.10-17.03.23:671][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2024.02.10-17.03.24:598][231]LogAutomationController: Ignoring very large delta of 24.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
-[2024.02.10-17.03.27:518][469]LogSlate: Window 'Message Log' being destroyed
-[2024.02.10-17.03.27:525][469]LogSlate: Window 'Message Log' being destroyed
-[2024.02.10-17.03.27:595][475]LogMeshUtilities: Finished distance field build in 3.0s - 42x42x84 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 93% occupied, 104 triangles, Unit567BatteryV1
