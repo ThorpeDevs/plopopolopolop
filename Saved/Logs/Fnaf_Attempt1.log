@@ -3801,3 +3801,470 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.10-17.24.42:189][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 6.37 sec)
 [2024.02.10-17.24.42:193][ 97]AssetCheck: New page: Asset Save: MainLevel
 [2024.02.10-17.24.42:193][ 97]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.02.10-17.25.16:801][438]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.10-17.25.16:811][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.10-17.25.16:811][438]PIE: New page: PIE session: MainLevel (10 Feb 2024, 17:25:16)
+[2024.02.10-17.25.16:811][438]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2024.02.10-17.25.16:841][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030232s)
+[2024.02.10-17.25.16:841][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.030286s)
+[2024.02.10-17.25.16:862][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.02.10-17.25.16:865][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.10-17.25.16:865][438]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.10-17.25.16:865][438]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.10-17.25.16:866][438]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2024.02.10-17.25.16:866][438]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.10-17.25.16:866][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.10-17.25.16:866][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.10-17.25.16:866][438]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.10-17.25.16:866][438]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.10-17.25.16:866][438]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.10-17.25.16:869][438]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.10-17.25.16:898][438]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.10-17.25.16:899][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.10-17.25.16:899][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.10-17.25.16:899][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.10-17.25.16:901][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.10-17.25.16:901][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.10-17.25.16:903][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.10-17.25.16:903][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.10-17.25.16:903][438]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.10-17.25.16:903][438]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainLevel'.
+[2024.02.10-17.25.16:903][438]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.10-17.25.16:906][438]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.10-17.25.16:926][438]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.10-17.25.16
+[2024.02.10-17.25.16:927][438]LogWorld: Bringing up level for play took: 0.020012
+[2024.02.10-17.25.16:930][438]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.02.10-17.25.16:937][438]PIE: Server logged in
+[2024.02.10-17.25.16:938][438]PIE: Play in editor total start time 0.127 seconds.
+[2024.02.10-17.25.18:811][571]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.99
+[2024.02.10-17.25.26:412][140]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.98
+[2024.02.10-17.25.27:398][215]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.97
+[2024.02.10-17.25.28:227][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.10-17.25.28:227][279]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2024.02.10-17.25.28:227][279]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.10-17.25.28:229][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.10-17.25.28:233][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.10-17.25.28:239][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.10-17.25.28:257][279]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.10-17.25.28:259][279]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.10-17.25.28:259][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.10-17.25.28:261][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.10-17.25.28:266][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.10-17.25.28:272][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.10-17.25.28:332][280]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.02.10-17.27.16:895][730]MapCheck: New page: Map Check
+[2024.02.10-17.27.16:919][730]LightingResults: New page: Lighting Build - 10 Feb 2024, 17:27:16
+[2024.02.10-17.27.16:929][730]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.02.10-17.27.16:933][730]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.02.10-17.27.16:933][730]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.02.10-17.27.16:934][730]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.02.10-17.27.16:934][730]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18452
+[2024.02.10-17.27.22:305][730]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.02.10-17.27.22:306][730]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.02.10-17.27.22:306][730]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.02.10-17.27.22:306][730]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.02.10-17.27.22:306][730]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.02.10-17.27.22:306][730]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.02.10-17.27.22:430][730]LogEditorBuildUtils: Build time 0:05
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: ================================================
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Total job queries 133, among them cache hits 44 (33.08%)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Tracking 89 distinct input hashes that result in 60 distinct outputs (67.42%)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: RAM used: 220.01 KiB of 819.20 MiB budget. Usage: 0.03%
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Shaders Compiled: 73
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Jobs assigned 73, completed 73 (100%)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Average time worker was idle: 113.34 s
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Time job spent in pending queue: average 2.10 s, longest 10.05 s
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Job execution time: average 1.89 s, max 21.57 s
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Job life time (pending + execution): average 3.99 s, max 21.62
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Shader code size: average 5.949 KiB, min 1.867 KiB, max 12.789 KiB
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 55.24 s
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Jobs were issued in 69 batches (only local compilation was used), average 1.06 jobs/batch
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Average processing rate: 1.32 jobs/sec
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Total thread time: 72.174 s
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Total thread preprocess time: 9.567 s
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Percentage time preprocessing: 13.26%
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Effective parallelization: 1.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 4.03 sec, max 14.33 sec, min 0.45 sec)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 3.72 sec, max 12.79 sec, min 0.52 sec)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    2 times, average 1.60 sec, max 1.60 sec, min 1.60 sec)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 1.08 sec, max 1.63 sec, min 0.53 sec)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.75 sec, max 1.41 sec, min 0.42 sec)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 22.31% of total time (compiled    4 times, average 4.03 sec, max 14.33 sec, min 0.45 sec)
+[2024.02.10-17.27.22:446][730]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 20.61% of total time (compiled    4 times, average 3.72 sec, max 12.79 sec, min 0.52 sec)
+[2024.02.10-17.27.22:447][730]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.95% of total time (compiled    8 times, average 0.72 sec, max 1.44 sec, min 0.41 sec)
+[2024.02.10-17.27.22:447][730]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.42% of total time (compiled    8 times, average 0.67 sec, max 1.51 sec, min 0.32 sec)
+[2024.02.10-17.27.22:447][730]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ - 4.45% of total time (compiled    2 times, average 1.60 sec, max 1.60 sec, min 1.60 sec)
+[2024.02.10-17.27.22:447][730]LogShaderCompilers: Display: ================================================
+[2024.02.10-17.27.22:486][731]LogAutomationController: Ignoring very large delta of 5.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.10-17.27.22:517][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.02.10-17.27.28:331][973]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.28:331][973]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.28:441][978]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.28:441][978]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.28:551][983]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.28:551][983]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.28:769][993]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.28:769][993]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.28:789][994]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.28:789][994]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.28:878][997]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.28:878][997]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.28:951][  0]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.28:951][  0]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:033][  3]LightingResults: Warning: Shower Object has overlapping UVs.
+[2024.02.10-17.27.29:033][  3]LightingResults: Shower Lightmap UV are overlapping by 37.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:121][  7]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:121][  7]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:190][ 10]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:190][ 10]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:260][ 13]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:260][ 13]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:281][ 14]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.29:281][ 14]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:329][ 15]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.29:330][ 15]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:330][ 15]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:330][ 15]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:436][ 20]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:436][ 20]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:457][ 21]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.29:457][ 21]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:511][ 22]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:511][ 22]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:576][ 25]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:576][ 25]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:641][ 28]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.29:641][ 28]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:663][ 29]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.27.29:663][ 29]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:712][ 30]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.29:712][ 30]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.29:838][ 36]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.29:859][ 37]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.30:083][ 46]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.30:083][ 46]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.30:279][ 55]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.30:279][ 55]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.30:328][ 57]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.30:328][ 57]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.30:836][ 81]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.30:836][ 81]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.31:066][ 92]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.31:066][ 92]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.31:066][ 92]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.31:066][ 92]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.31:595][117]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.31:595][117]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.31:784][126]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.31:784][126]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.31:935][133]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.31:935][133]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.31:981][135]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.31:981][135]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:149][143]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.32:149][143]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:170][144]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.32:170][144]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:307][149]LightingResults: Warning: Shower Object has overlapping UVs.
+[2024.02.10-17.27.32:307][149]LightingResults: Shower Lightmap UV are overlapping by 37.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:584][161]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.32:606][162]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:909][175]LightingResults: Warning: Shower Object has overlapping UVs.
+[2024.02.10-17.27.32:909][175]LightingResults: Shower Lightmap UV are overlapping by 37.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:930][176]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.32:930][176]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.32:979][177]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.32:979][177]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:108][183]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.33:108][183]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:275][190]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.33:297][191]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:466][197]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.33:466][197]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:487][198]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.33:487][198]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:556][199]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.33:556][199]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:639][203]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.33:639][203]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:788][210]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.33:809][211]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.33:987][217]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.33:987][217]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:180][225]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.34:180][225]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:239][227]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.34:240][227]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:240][227]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.34:240][227]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:388][234]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.34:388][234]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:457][236]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.34:457][236]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:623][244]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.34:623][244]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:861][255]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.34:861][255]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:882][256]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.34:882][256]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.34:932][257]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.34:932][257]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:073][263]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.35:073][263]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:136][266]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.35:136][266]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:259][271]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.35:259][271]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:526][283]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.35:526][283]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:591][285]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.35:591][285]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:651][288]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.27.35:651][288]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.35:826][296]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.35:826][296]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.36:126][310]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.27.36:126][310]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.36:427][324]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.27.36:427][324]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.27.36:448][325]Job is a success!
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.061s
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:      Bricks at depth
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:          1: 11.4% covering 12.5% of volume
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:          2: 87.1% covering 1.5% of volume
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:      Bricks in each level
+[2024.02.10-17.27.36:715][326]LogVolumetricLightmapImport:          MainLevel 			 70 bricks 	 100.0% (Persistent Level)
+[2024.02.10-17.27.37:036][326]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 73.395816 MB), EncodeSpeed: Fast
+[2024.02.10-17.27.37:095][326]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 71.395815 MB), EncodeSpeed: Fast
+[2024.02.10-17.27.37:188][326]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 73.395816 MB), EncodeSpeed: Fast
+[2024.02.10-17.27.37:220][326]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 71.395815 MB), EncodeSpeed: Fast
+[2024.02.10-17.27.37:381][326]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:ShadowMapTexture2D_2 (BGRA8, 1024x512 x1x1x1) (Required Memory Estimate: 16.062489 MB), EncodeSpeed: Fast
+[2024.02.10-17.27.37:426][326]Lightmass on YES: 13.5 sec total, 553 ms importing, 83 ms setup, 3.49 sec photons, 9.41 sec processing, 0 us extra exporting [164/164 mappings]. Threads: 37.6 sec total, 23.4 sec processing.
+[2024.02.10-17.27.37:461][326]LogStaticLightingSystem: MainLevel_BuiltData storing lightmap data for 164 meshes in 4 LightmapResourceClusters (41.0 Meshes per cluster).
+[2024.02.10-17.27.37:511][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.10-17.27.37:526][326]LogStaticLightingSystem: Illumination: 20.5 sec (281 ms encoding lightmaps, 162 ms encoding shadowmaps)
+[2024.02.10-17.27.37:526][326]LogStaticLightingSystem: Lightmap texture memory:  4.1 MB (4.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2024.02.10-17.27.37:526][326]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.02.10-17.27.38:328][326]DumpUnbuiltLightIteractions
+[2024.02.10-17.27.38:328][326]Lights with unbuilt interactions: 0
+[2024.02.10-17.27.38:328][326]
+[2024.02.10-17.27.38:329][326]Primitives with unbuilt interactions: 0
+[2024.02.10-17.27.38:360][327]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.02.10-17.27.38:360][327]MapCheck: New page: MainLevel - 10 Feb 2024, 17:27:38
+[2024.02.10-17.27.38:362][327]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.864ms to complete.
+[2024.02.10-17.27.39:611][391]LogSlate: Window 'Message Log' being destroyed
+[2024.02.10-17.27.39:624][391]LogSlate: Window 'Message Log' being destroyed
+[2024.02.10-17.27.46:480][802]LogEditorViewport: Clicking Background
+[2024.02.10-17.28.43:462][357]Cmd: TRANSACTION UNDO
+[2024.02.10-17.28.43:462][357]LogEditorTransaction: Undo Move Elements
+[2024.02.10-17.28.43:934][365]Cmd: TRANSACTION UNDO
+[2024.02.10-17.28.43:935][365]LogEditorTransaction: Undo Move Elements
+[2024.02.10-17.29.10:728][891]MapCheck: New page: Map Check
+[2024.02.10-17.29.10:752][891]LightingResults: New page: Lighting Build - 10 Feb 2024, 17:29:10
+[2024.02.10-17.29.10:762][891]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.02.10-17.29.10:770][891]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.02.10-17.29.10:770][891]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.02.10-17.29.10:771][891]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.02.10-17.29.10:771][891]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18452
+[2024.02.10-17.29.16:144][891]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.02.10-17.29.16:144][891]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.02.10-17.29.16:144][891]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.02.10-17.29.16:144][891]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.02.10-17.29.16:144][891]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.02.10-17.29.16:144][891]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.02.10-17.29.16:274][891]LogEditorBuildUtils: Build time 0:05
+[2024.02.10-17.29.16:320][892]LogAutomationController: Ignoring very large delta of 5.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.10-17.29.16:351][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.10-17.29.23:259][174]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.23:259][174]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.23:331][177]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.23:331][177]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.23:399][179]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.23:400][179]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.23:765][196]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.23:765][196]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.23:898][202]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.23:898][202]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.23:987][206]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.23:987][206]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.23:987][206]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.24:006][207]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.24:154][212]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.24:155][212]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.24:273][217]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.24:273][217]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.24:522][228]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.24:522][228]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.24:858][243]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.24:858][243]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.24:879][244]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.24:879][244]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:012][293]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.26:012][293]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:109][297]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.26:109][297]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:402][310]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.26:402][310]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:474][313]LightingResults: Warning: Shower Object has overlapping UVs.
+[2024.02.10-17.29.26:474][313]LightingResults: Shower Lightmap UV are overlapping by 37.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:607][319]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.26:607][319]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:708][323]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.26:708][323]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:784][326]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.26:784][326]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:894][331]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.26:895][331]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:969][333]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.26:969][333]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:969][333]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.26:969][333]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.26:992][334]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.26:992][334]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.27:052][335]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.27:052][335]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.27:244][344]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.27:244][344]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.27:294][346]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.27:294][346]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.27:396][350]LightingResults: Warning: WindowFrame Object has overlapping UVs.
+[2024.02.10-17.29.27:396][350]LightingResults: WindowFrame Lightmap UV are overlapping by 75.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.27:655][362]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.27:655][362]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.27:746][366]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.27:746][366]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.28:349][394]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.28:349][394]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.28:449][398]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.28:449][398]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.28:449][398]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.28:449][398]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.28:670][408]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.28:670][408]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.28:763][412]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.28:763][412]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.29:067][426]LightingResults: Warning: Shower Object has overlapping UVs.
+[2024.02.10-17.29.29:067][426]LightingResults: Shower Lightmap UV are overlapping by 37.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.29:275][435]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.29:275][435]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.29:494][445]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.29:494][445]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.29:567][448]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.29:567][448]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.29:994][468]LightingResults: Warning: Shower Object has overlapping UVs.
+[2024.02.10-17.29.29:994][468]LightingResults: Shower Lightmap UV are overlapping by 37.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.30:279][481]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.30:279][481]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.30:339][483]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.30:339][483]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.30:764][502]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.30:764][502]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.30:858][506]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.30:858][506]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.30:927][509]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.30:927][509]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.31:167][520]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.31:167][520]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.31:242][523]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.31:242][523]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.31:614][540]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.31:614][540]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.31:692][543]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.31:692][543]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.31:805][548]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.31:805][548]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.31:854][550]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.31:854][550]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.32:102][561]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.32:102][561]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.32:234][566]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.32:258][567]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.32:313][568]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.32:313][568]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.32:545][578]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.32:545][578]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.32:684][584]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.32:684][584]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.32:754][587]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.32:776][588]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.33:140][603]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.33:140][603]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.33:188][605]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.33:188][605]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.33:346][612]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.33:346][612]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.33:724][629]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.33:724][629]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.33:825][633]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.33:825][633]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.34:002][640]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.34:002][640]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.34:267][652]LightingResults: Warning: Unit567TVV1 Object has overlapping UVs.
+[2024.02.10-17.29.34:267][652]LightingResults: Unit567TVV1 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.34:451][660]LightingResults: Warning: Lamp Object has overlapping UVs.
+[2024.02.10-17.29.34:476][661]LightingResults: Lamp Lightmap UV are overlapping by 17.6%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.34:533][662]Job is a success!
+[2024.02.10-17.29.34:533][662]LightingResults: Warning: Bed Object has overlapping UVs.
+[2024.02.10-17.29.34:533][662]LightingResults: Bed Lightmap UV are overlapping by 49.5%. Please adjust content - Enable Error Coloring to visualize.
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.095s
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:      Bricks at depth
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:          1: 11.8% covering 12.5% of volume
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:          2: 86.8% covering 1.4% of volume
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:      Bricks in each level
+[2024.02.10-17.29.34:859][664]LogVolumetricLightmapImport:          MainLevel 			 68 bricks 	 100.0% (Persistent Level)
+[2024.02.10-17.29.35:332][664]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 73.395816 MB), EncodeSpeed: Fast
+[2024.02.10-17.29.35:394][664]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 71.395815 MB), EncodeSpeed: Fast
+[2024.02.10-17.29.35:450][664]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 73.395816 MB), EncodeSpeed: Fast
+[2024.02.10-17.29.35:481][664]LogTexture: Display: Building textures: /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 71.395815 MB), EncodeSpeed: Fast
+[2024.02.10-17.29.35:536][664]Lightmass on YES: 17.6 sec total, 722 ms importing, 79 ms setup, 4.09 sec photons, 12.7 sec processing, 0 us extra exporting [164/164 mappings]. Threads: 50.9 sec total, 32.8 sec processing.
+[2024.02.10-17.29.35:576][664]LogStaticLightingSystem: MainLevel_BuiltData storing lightmap data for 164 meshes in 2 LightmapResourceClusters (82.0 Meshes per cluster).
+[2024.02.10-17.29.35:632][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.02.10-17.29.35:644][664]LogStaticLightingSystem: Illumination: 24.8 sec (249 ms encoding lightmaps, 11 us encoding shadowmaps)
+[2024.02.10-17.29.35:644][664]LogStaticLightingSystem: Lightmap texture memory:  4.1 MB (4.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2024.02.10-17.29.35:645][664]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2024.02.10-17.29.36:162][664]DumpUnbuiltLightIteractions
+[2024.02.10-17.29.36:163][664]Lights with unbuilt interactions: 0
+[2024.02.10-17.29.36:163][664]
+[2024.02.10-17.29.36:163][664]Primitives with unbuilt interactions: 0
+[2024.02.10-17.29.36:195][665]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.02.10-17.29.36:195][665]MapCheck: New page: MainLevel - 10 Feb 2024, 17:29:36
+[2024.02.10-17.29.36:197][665]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.972ms to complete.
+[2024.02.10-17.29.40:319][731]LogAutomationController: Ignoring very large delta of 2.77 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.10-17.29.43:674][893]LogDerivedDataCache: C:/Users/Thorp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.720 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1407 files in 2345 folders with total size 54 MiB.
+[2024.02.10-17.31.21:262][341]LogSlate: Window 'Message Log' being destroyed
+[2024.02.10-17.31.21:270][341]LogSlate: Window 'Message Log' being destroyed
+[2024.02.10-17.31.41:322][554]LogEditorViewport: Clicking Background
+[2024.02.10-17.31.45:986][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.10-17.31.46:078][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.02.10-17.31.46:174][897]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel
+[2024.02.10-17.31.46:175][897]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/MainLevelF0BF6C6E413886A66DB021BC5AF29D99.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel.umap'
+[2024.02.10-17.31.46:302][897]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Levels/MainLevel_BuiltData
+[2024.02.10-17.31.46:302][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.10-17.31.46:305][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel_BuiltData" FILE="D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel_BuiltData.uasset" SILENT=true
+[2024.02.10-17.31.46:395][897]LogSavePackage: Moving output files for package: /Game/Levels/MainLevel_BuiltData
+[2024.02.10-17.31.46:396][897]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/MainLevel_BuiltDataBFA363B54467601FFD6E538ABE33D582.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Levels/MainLevel_BuiltData.uasset'
+[2024.02.10-17.31.46:397][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 6.47 sec)
+[2024.02.10-17.31.46:397][897]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Levels/MainLevel_BuiltData
+[2024.02.10-17.31.46:397][897]LogFileHelpers: Saving map 'MainLevel' took 0.363
+[2024.02.10-17.31.46:414][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 429 ms (total: 6.90 sec)
+[2024.02.10-17.31.46:426][897]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.10-17.31.46:426][897]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainLevel.MainLevel
+[2024.02.10-17.31.46:426][897]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
