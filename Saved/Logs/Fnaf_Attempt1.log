@@ -6463,3 +6463,142 @@ Script Stack (1 frames) :
 [2024.02.20-21.36.58:016][412]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/StaticAtt_Auto3
 [2024.02.20-21.36.58:016][412]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/StaticAtt_Auto381BB0DCC47B8001BE2EE9AAB1DBED769.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/Autosaves/Game/Audio/StaticAtt_Auto3.uasset'
 [2024.02.20-21.36.58:017][412]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.02.20-21.37.29:298][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.20-21.37.30:612][811]LogSlate: Window 'Save Content' being destroyed
+[2024.02.20-21.37.30:624][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-21.37.30:688][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/FootstepFixed" FILE="D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Audio/FootstepFixed.uasset" SILENT=true
+[2024.02.20-21.37.30:691][811]LogSavePackage: Moving output files for package: /Game/Audio/FootstepFixed
+[2024.02.20-21.37.30:691][811]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/FootstepFixedCAB50FCB404B70EA3957EB87D786739E.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Audio/FootstepFixed.uasset'
+[2024.02.20-21.37.30:695][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/StaticAtt" FILE="D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Audio/StaticAtt.uasset" SILENT=true
+[2024.02.20-21.37.30:696][811]LogSavePackage: Moving output files for package: /Game/Audio/StaticAtt
+[2024.02.20-21.37.30:696][811]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/StaticAtt59A72128496C969D0476CE8EDC6A8D06.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/Audio/StaticAtt.uasset'
+[2024.02.20-21.37.30:708][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 10.8 sec)
+[2024.02.20-21.37.30:708][811]LogStall: Shutdown...
+[2024.02.20-21.37.30:715][811]LogStall: Shutdown complete.
+[2024.02.20-21.37.30:842][811]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.30:842][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-21.37.30:852][811]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.30:852][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-21.37.31:288][811]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.31:288][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-21.37.31:410][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.20-21.37.31:410][811]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.31:410][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-21.37.31:644][811]LogSlate: Window 'Fnaf_Attempt1 - Unreal Editor' being destroyed
+[2024.02.20-21.37.32:296][811]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-21.37.32:296][811]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/FootstepFixed.FootstepFixed
+[2024.02.20-21.37.32:296][811]LogContentValidation: Display: Validating /Script/Engine.SoundAttenuation /Game/Audio/StaticAtt.StaticAtt
+[2024.02.20-21.37.32:300][812]Cmd: QUIT_EDITOR
+[2024.02.20-21.37.32:300][812]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.02.20-21.37.32:365][812]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.02.20-21.37.32:386][812]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.02.20-21.37.32:386][812]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.02.20-21.37.32:512][812]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.32:512][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-21.37.32:912][812]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.02.20-21.37.33:804][812]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.02.20-21.37.33:805][812]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.02.20-21.37.33:805][812]LogAudio: Display: Audio Device unregistered from world 'MainLevel'.
+[2024.02.20-21.37.33:805][812]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.02.20-21.37.33:805][812]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.02.20-21.37.33:807][812]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.02.20-21.37.33:816][812]LogAudio: Display: Audio Device Manager Shutdown
+[2024.02.20-21.37.33:817][812]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2024.02.20-21.37.33:886][812]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.02.20-21.37.33:916][812]LogExit: Preparing to exit.
+[2024.02.20-21.37.34:767][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.02.20-21.37.34:819][812]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:819][812]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:823][812]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:824][812]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.34:825][812]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:518][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:519][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.02.20-21.37.36:530][812]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-21.37.37:009][812]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.02.20-21.37.37:566][812]LogExit: Editor shut down
+[2024.02.20-21.37.37:587][812]LogExit: Transaction tracking system shut down
