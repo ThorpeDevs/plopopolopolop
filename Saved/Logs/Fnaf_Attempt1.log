@@ -4176,3 +4176,106 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-20.34.04:568][603]AssetCheck: New page: Asset Save: multiple assets
 [2024.02.20-20.34.04:568][603]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/Click.Click
 [2024.02.20-20.34.04:568][603]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/SuccessUI.SuccessUI
+[2024.02.20-20.34.51:900][701]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MainMenu/MainMenuUI.MainMenuUI
+[2024.02.20-20.34.51:900][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-20.34.51:900][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-20.34.51:914][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-20.34.51:914][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-20.35.31:178][ 72]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.20-20.35.31:178][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-20.35.31:178][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-20.36.38:176][757]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-20.36.38:319][757]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.20-20.36.38:320][757]LogSavePackage: Moving 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Saved/BP_ThirdPersonCharacter274528B242F406609D12F0BE7107559A.tmp' to 'D:/.meervoudigepersoonlijkheidsstoornis/.Unreal Games/.Github/plopopolopolop/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.20-20.36.38:332][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 4.25 sec)
+[2024.02.20-20.36.38:335][757]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.20-20.36.38:335][757]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.20-20.36.38:883][803]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.02.20-20.36.39:101][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.20-20.36.41:298][947]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-20.36.41:307][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-20.36.41:307][947]PIE: New page: PIE session: MainLevel (20 Feb 2024, 20:36:41)
+[2024.02.20-20.36.41:330][947]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2024.02.20-20.36.41:367][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037203s)
+[2024.02.20-20.36.41:367][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.037261s)
+[2024.02.20-20.36.41:388][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.20-20.36.41:403][947]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-20.36.41:403][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-20.36.41:404][947]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.20-20.36.41:404][947]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2024.02.20-20.36.41:404][947]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-20.36.41:404][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-20.36.41:404][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-20.36.41:405][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-20.36.41:405][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-20.36.41:405][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-20.36.41:407][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-20.36.41:433][947]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.20-20.36.41:433][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-20.36.41:433][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-20.36.41:433][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-20.36.41:435][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.02.20-20.36.41:435][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.02.20-20.36.41:437][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.02.20-20.36.41:437][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.02.20-20.36.41:437][947]LogInit: FAudioDevice initialized with ID 13.
+[2024.02.20-20.36.41:437][947]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainLevel'.
+[2024.02.20-20.36.41:437][947]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.20-20.36.41:441][947]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.20-20.36.41:463][947]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.20-20.36.41
+[2024.02.20-20.36.41:463][947]LogWorld: Bringing up level for play took: 0.022163
+[2024.02.20-20.36.41:466][947]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.02.20-20.36.41:472][947]LogBlueprintUserMessages: [KeyPart_C_16] Spawn
+[2024.02.20-20.36.41:472][947]LogBlueprintUserMessages: [KeyPart_C_17] Spawn
+[2024.02.20-20.36.41:472][947]LogBlueprintUserMessages: [KeyPart_C_20] Spawn
+[2024.02.20-20.36.41:476][947]PIE: Server logged in
+[2024.02.20-20.36.41:477][947]PIE: Play in editor total start time 0.171 seconds.
+[2024.02.20-20.36.41:897][976]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.36.42:467][ 24]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.20-20.36.42:467][ 24]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.20-20.36.45:009][250]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.20-20.36.45:009][250]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.20-20.36.46:194][344]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.36.46:453][364]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.36.50:940][722]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.36.51:148][738]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.36.56:665][180]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.03:127][696]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.03:392][717]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.08:643][142]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.13:776][554]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.14:171][586]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.23:147][293]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.28:936][759]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.32:561][ 48]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.33:067][ 88]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.33:512][124]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.44:079][965]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.44:378][988]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.44:572][  3]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.44:913][ 31]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.56:577][966]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.37.56:913][993]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] NothindThere
+[2024.02.20-20.38.01:118][333]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.20-20.38.01:118][333]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.20-20.38.03:099][510]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.20-20.38.03:099][510]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.20-20.38.11:460][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-20.38.11:461][187]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2024.02.20-20.38.11:461][187]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-20.38.11:463][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-20.38.11:467][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-20.38.11:474][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-20.38.11:494][187]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-20.38.11:495][187]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.20-20.38.11:495][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.20-20.38.11:497][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.20-20.38.11:503][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-20.38.11:509][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.02.20-20.38.11:579][188]LogPlayLevel: Display: Destroying online subsystem :Context_37
